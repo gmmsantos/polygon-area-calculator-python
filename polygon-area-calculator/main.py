@@ -8,14 +8,15 @@ print(rect.get_perimeter())
 print(rect)
 print(rect.get_picture())
 
-# sq = square.Square(9)
-# print(sq.get_area())
-# sq.set_side(4)
-# print(sq.get_diagonal())
-# print(sq)
+sq = square.Square(9)
+print(sq.get_area())
+sq.set_side(4)
+print(sq.get_diagonal())
+print(sq)
+print(sq.get_picture())
 
-# # Run unit tests automatically
-# main(
-#     module="/Users/gabrielsantos/polygon-area-calculator-python/tests/test_module.py",
-#     exit=False,
-# )
+# Run unit tests automatically
+main(
+    module="tests.test_module",
+    exit=False,
+)

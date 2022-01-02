@@ -33,6 +33,3 @@ class Rectangle:
             else:
                 display += ("*" + (" " * (self.width - 2)) + "*") + "\n"
         return display
-
-    def get_amount_inside(self, shape):
-        pass
